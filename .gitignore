@@ -218,3 +218,120 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==================================
+# SQL Server / SSMS
+# ==================================
+
+# SQL Server database files
+*.mdf
+*.ndf
+*.ldf
+
+# Database backups
+*.bak
+*.trn
+
+# SQL Server generated files
+*.db
+*.sqlite
+*.sqlite3
+
+# SSMS user settings
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# SQL Server project build files
+bin/
+obj/
+
+# ==================================
+# SQL Scripts / Data
+# ==================================
+
+# Local data files
+data/raw/
+data/processed/
+
+# Large datasets
+*.csv
+*.xlsx
+*.xls
+*.parquet
+
+# Exported query results
+outputs/
+results/
+exports/
+
+# ==================================
+# Python (if using SQL + Python)
+# ==================================
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# ==================================
+# Credentials / Secrets
+# ==================================
+
+.env
+.env.*
+*.ini
+*.cfg
+credentials.json
+secrets/
+
+# Database connection files
+connection.py
+database_config.py
+
+# ==================================
+# Power BI
+# ==================================
+
+# Power BI temporary files
+*.pbix~
+*.pbit~
+*.tmp
+
+# ==================================
+# IDE
+# ==================================
+
+.vscode/
+.idea/
+
+# ==================================
+# Operating System
+# ==================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# ==================================
+# Logs
+# ==================================
+
+*.log
+logs/
